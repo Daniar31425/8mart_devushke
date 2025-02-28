@@ -1,5 +1,5 @@
 const title = document.querySelector('.title')
-const text = 'Құрметті  Нәзік  Қыздар  Қауымы  Сіздерді  8  Наурыз  Халықаралық  Әйелдер  Мерекесімен  Құттықтаймын!'.split('')
+const text = 'Құрметті  Нәзік  Қыздар  Қауымы  Сіздерді  8  Наурыз   Халықаралық  Әйелдер  Мерекесімен  Құттықтаймыз!'.split('')
 for (let index = 0; index < text.length; index++) {
   if (text[index] !== ' ') {
     title.innerHTML += `<span>${text[index]}<span/>`
